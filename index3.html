@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<title>FAQ Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+          <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!--this next one is new to this page-->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>   
+    
+
+<style>
+
+.bgimg {
+    background-image: url('/w3images/onepage_restaurant.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+    
+    
+  
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+    
+    
+    /*this colors the closing x button on the modal*/
+.w3-button {
+        color: white;
+    }
+  /*complete*/  
+    
+   
+    p{
+        color: black;
+    }
+    
+    /* this gives the background colour behind the main buttons and in the modal*/
+.w3-container {
+    background-color: lightgray;
+}
+
+    .w3-container h1{
+    color:white;
+}
+    
+       .w3-container h5{
+    color:darkblue;
+}
+    
+    .w3-container{
+        padding: 20px;
+    }
+    
+  
+    
+    
+   .FAQ { cursor:hand; cursor:pointer;
+        border:2px solid darkgray; width:75%; padding:30px; color: darkblue;}
+    
+.FAA { display:list-item; margin-left: 40px;color: black;}
+	
+
+
+	
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 460px;
+	max-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	
+	
+	.w3-container p button{
+		border: 1px solid red;
+		border-radius: 10px;
+	}
+		
+
+	
+	
+</style>
+		<script>
+    function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+            
+            
+  
+
+
+</SCRIPT>
+    
+ <!--
+<script type="text/javascript">
+function toggle(Info) {
+  var CState = document.getElementById(Info);
+  CState.style.display = (CState.style.display != 'block')
+                       ? 'block' : 'none';
+}
+    
+<script type="text/javascript">
+function toggle1(menu3) {
+  var CState = document.getElementById();
+  CState.style.display = (CState.style.display != 'block')
+                       ? 'block' : 'none';
+}
+</script>
+  
+-->
+
+   
+<body>
+  <div class="jumbotron">
+
+    <div class="litlogo">
+        
+       <img class="img-responsive" src="img/lit%20logo1.jpg" alt="LIT Logo"><h1>IT Questions & Answers</h1>
+      </div>
+    </div>
+ 
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          
+      <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index1.html">About LIT</a></li>
+		   <li><a href="index2.html">Video Tutorials</a></li>
+        <li><a href="index3.html">IT Questions</a></li>
+        <li><a href="index4.html">IT Contact</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+    
+	
+	 
+            
+     
+      
+    
+    
+    
+  <!--buttons-->  
+    
+  <!--put all the buttons in the one div for good layout-->
+  <div class="w3-container w3-xlarge">
+      
+      <!--this button code matches with modal button content 1 below-->
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-red" style="width:300px">How to Login?</button></p>
+   
+        <!--TEST this button code matches with modal button content X below-->
+    <p><button onclick="document.getElementById('menu3').style.display='block'" class="w3-button w3-red" style="width:300px">Moodle</button></p>
+      
+      <!--this button code matches with modal button content 2 below-->
+   <p><button onclick="document.getElementById('menu1').style.display='block'" class="w3-button w3-red" style="width:300px">Power BI?</button></p>  
+  </div>
+    <!--completion of put all the buttons in the one div for good layout-->
+ <!--buttons completed-->  
+    
+    
+    
+    
+<!--modals--> 
+    
+<!-- Modal button content 1 -->
+<div id="menu" class="w3-modal">
+    
+  <div class="w3-modal-content w3-animate-zoom">
+      
+    <div class="w3-container w3-black w3-display-container">
+        
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        
+        
+        
+      <h1>Questions about how to Log In?</h1>
+    </div>
+	  
+	  
+    <div class="w3-container">
+        <div class="dropdown">
+  <span>Question 1: About login</span>
+  <div class="dropdown-content">
+    <p id="p1">Answer1</p><button onclick="copyToClipboard('#p1')">Copy</button>
+  </div>
+</div>
+        <br>
+
+              <div class="dropdown">
+  <span>Question 2: About login</span>
+  <div class="dropdown-content">
+    <p id="p2">Answer2</p><button onclick="copyToClipboard('#p2')">Copy</button>
+  </div>
+</div>
+         <br>
+              <div class="dropdown">
+  <span>Question 3: About login</span>
+  <div class="dropdown-content">
+    <p id="p3">Answer3</p><button onclick="copyToClipboard('#p3')">Copy</button>
+  </div>
+</div>
+        
+    </div>
+      
+      
+    <div class="w3-container w3-black">
+      <h1>E-learning tutorial Videos about Login?</h1>
+    </div>
+      
+      <div class="w3-container">
+		  
+		  
+          
+     <div class="FAQ" onclick="toggle('faq4')">
+ Video 1: 
+ <div id="faq4" class="FAA">Video link: 1</div>
+</div>
+
+<div class="FAQ" onclick="toggle('faq5')">
+ Video 2: 
+ <div id="faq5" class="FAA">Answer 2</div>
+</div>
+
+<div class="FAQ" onclick="toggle('faq6')">
+ Video 3:
+ <div id="faq6" class="FAA">Answer 3</div>
+</div>
+        
+   
+    </div>
+      
+ 
+    <div class="w3-container w3-black">
+      <h1>Helpdesk Contact Details?</h1>
+    </div>
+    <div class="w3-container">
+          <h5><b>Email:helpdesk@lit.ie.</b></h5>
+      <h5><b>Phone:</b> (061) 293100/ext 3100.</h5>
+      <h5><b>Address:</b> Computers Services Department (CSD), Limerick Institute of Technology, Moylish, Limerick.</h5>
+        <h5><b>freshservice ticketing system:</b> add link here.</h5>
+    </div>
+  </div>
+</div>
+
+    <!-- completion of Modal button content 1 -->
+    
+    
+    
+    
+
+    
+    <!-- TEST Modal button content X -->
+<div id="menu3" class="w3-modal">
+    
+  <div class="w3-modal-content w3-animate-zoom">
+      
+    <div class="w3-container w3-black w3-display-container">
+        
+      <span onclick="document.getElementById('menu3').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        
+        
+        
+      <h1>Moodle</h1>
+    </div>
+
+	  
+	   <div class="w3-container">
+        <div class="dropdown">
+			
+  <span>Question1: About Moodle</span>
+
+   <div class="dropdown-content">
+    <p id="p10">Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle</p><button onclick="copyToClipboard('#p10')">Copy</button>
+  </div>
+</div>	  
+
+			
+			
+
+		<br><br>
+		   
+	        <div class="dropdown">
+			
+  <span>Question2: About Moodle</span>
+			
+  <div class="dropdown-content">
+    <p id="p11">Answer 2: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle</p><button onclick="copyToClipboard('#p11')">Copy</button>
+  </div>
+</div>	   
+		   
+		<br><br>
+		    
+		   
+		   	        <div class="dropdown">
+			
+  <span>Question3: About Moodle</span>
+			
+  <div class="dropdown-content">
+    <p id="p12">Answer 3: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle</p><button onclick="copyToClipboard('#p12')">Copy</button>
+  </div>
+</div>	   
+		   
+		<br><br>
+		    	        <div class="dropdown">
+			
+  <span>Question4: About Moodle</span>
+			
+  <div class="dropdown-content">
+    <p id="p13">Answer 4: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle</p><button onclick="copyToClipboard('#p13')">Copy</button>
+  </div>
+</div>	   
+		   
+		<br><br>
+		    	        <div class="dropdown">
+			
+  <span>Question5: About Moodle</span>
+			
+  <div class="dropdown-content">
+    <p id="p14">Answer 5: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle</p><button onclick="copyToClipboard('#p14')">Copy</button>
+  </div>
+</div>	   
+		   
+		<br><br>
+		    
+		   
+		   	        <div class="dropdown">
+			
+  <span>Question6: About Moodle</span>
+			
+  <div class="dropdown-content">
+    <p id="p15">Answer 6: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle Answer 1: This answer is about moodle</p><button onclick="copyToClipboard('#p15')">Copy</button>
+  </div>
+</div>	   
+		  </div> 
+	
+		    
+
+		   
+<!--
+<div class="FAQ" onclick="toggle('faq1')">
+ Question 1: log in?
+ <div id="faq1" class="FAA">Answer 1</div>
+</div>
+
+<div class="FAQ" onclick="toggle('faq2')">
+ Question 2: log in?
+ <div id="faq2" class="FAA">Answer 2</div>
+</div>
+
+<div class="FAQ" onclick="toggle('faq3')">
+ Question 3 log in?
+ <div id="faq3" class="FAA">Answer 3?</div>
+</div>
+        -->
+
+   
+      
+      
+    <div class="w3-container w3-black">
+      <h1>E-learning tutorial Videos about Login?</h1>
+    </div>
+      
+      <div class="w3-container">
+		  
+		  
+          
+     <div class="FAQ" onclick="toggle('faq4')">
+ Video 1: 
+ <div id="faq4" class="FAA">Video link: 1</div>
+</div>
+
+<div class="FAQ" onclick="toggle('faq5')">
+ Video 2: 
+ <div id="faq5" class="FAA">Answer 2</div>
+</div>
+
+<div class="FAQ" onclick="toggle('faq6')">
+ Video 3:
+ <div id="faq6" class="FAA">Answer 3</div>
+</div>
+        
+   
+    </div>
+      
+ 
+    <div class="w3-container w3-black">
+      <h1>Helpdesk Contact Details?</h1>
+    </div>
+    <div class="w3-container">
+          <h5><b>Email:helpdesk@lit.ie.</b></h5>
+      <h5><b>Phone:</b> (061) 293100/ext 3100.</h5>
+      <h5><b>Address:</b> Computers Services Department (CSD), Limerick Institute of Technology, Moylish, Limerick.</h5>
+        <h5><b>freshservice ticketing system:</b> add link here.</h5>
+    </div>
+  </div>
+</div>
+
+	  
+	  
+   
+<!--modals completed-->     
+    
+    
+    
+    
+    
+    <!--pagnitation-->
+  <div class="pagination">
+  <a href="index.html">&laquo;</a>
+  <a class="active" href="index.html">1</a>
+           <a href="index1.html">2</a>
+  <a href="index2.html">3</a>
+  <a href="index3.html">4</a>
+		   <a href="index4.html">5</a>
+  <a href="index4.html">&raquo;</a>
+         
+</div>
+       
+      <!--completion of pagnitation-->
+    
+    <br><br>
+    
+    
+    <!--marquee-->
+       <div class="marquee1">
+    <marquee behavior="scroll" direction="left">Produced by Computer Services Department, LIT.</marquee>
+        </div>
+      <!--completion of marquee-->
+     <br><br>
+
+    <!--footer-->
+<footer class="container-fluid text-center">
+  <p>LIT Copyright</p>  
+  <form class="form-inline">CSD Helpdesk Monthly Newsletter:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+    <!--Completion of footer-->
+    
+    
+
+</body>
+</html>
+    
+    
+
